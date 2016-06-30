@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="login_divider">#a9a9a9</color>
+    <color name="btn_pressed">#1a5992</color>
+    <color name="btn_normal">#0066cc</color>
+    <color name="btn_disable">#99c2eb</color>
+
+    <color name="tips_bg">#2aa3e9</color>
+    <color name="text_color_dark">#222222</color>
+    <color name="border">#d9d9d9</color>
+</resources>

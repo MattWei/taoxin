@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ceramicmaterial/ceramicmaterial.iml" filepath="$PROJECT_DIR$/ceramicmaterial/ceramicmaterial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/organizationlibrary/organizationlibrary.iml" filepath="$PROJECT_DIR$/organizationlibrary/organizationlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/taoxin.iml" filepath="$PROJECT_DIR$/taoxin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/txin.iml" filepath="$PROJECT_DIR$/txin.iml" />
     </modules>
   </component>
 </project>
