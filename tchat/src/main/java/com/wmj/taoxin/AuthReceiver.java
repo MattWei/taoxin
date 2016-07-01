@@ -19,8 +19,9 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.alibaba.wukong.AuthConstants;
-import com.wmj.lifecoterie.login.LoginActivity;
-import com.wmj.lifecoterie.util.AndTools;
+import com.alibaba.wukong.im.utils.AndTools;
+//import com.wmj.lifecoterie.login.LoginActivity;
+//import com.wmj.lifecoterie.util.AndTools;
 
 /**
  * Description.
@@ -34,18 +35,21 @@ public class AuthReceiver extends BroadcastReceiver {
         String action = intent.getAction();
         if (AuthConstants.Event.EVENT_AUTH_KICKOUT.equals(action)) {  // 其它终端登录
             clearLocalCache();
-            AndTools.showToast(context, R.string.kickout);
+            //AndTools.showToast(context, R.string.kickout);
             goToLogin(context);
         }else if(AuthConstants.Event.EVENT_AUTH_LOGOUT.equals(action)){
             goToLogin(context);
+
         }
     }
 
     private void goToLogin(Context context) {
+        /*
         Intent intent = new Intent();
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.setClassName(context.getPackageName(),LoginActivity.class.getName());
         context.startActivity(intent);
+        */
     }
 
     /**

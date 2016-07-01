@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('doraemon-multimedia-1.9.9.6.aar'))

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/txin.iml" filepath="$PROJECT_DIR$/txin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth_push_2.3.2.1/auth_push_2.3.2.1.iml" filepath="$PROJECT_DIR$/auth_push_2.3.2.1/auth_push_2.3.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ceramicmaterial/ceramicmaterial.iml" filepath="$PROJECT_DIR$/ceramicmaterial/ceramicmaterial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doraemon-multimedia-1.9.9.6/doraemon-multimedia-1.9.9.6.iml" filepath="$PROJECT_DIR$/doraemon-multimedia-1.9.9.6/doraemon-multimedia-1.9.9.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organizationlibrary/organizationlibrary.iml" filepath="$PROJECT_DIR$/organizationlibrary/organizationlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taoxin.iml" filepath="$PROJECT_DIR$/taoxin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tchat/tchat.iml" filepath="$PROJECT_DIR$/tchat/tchat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wukongim_1.4.3.1/wukongim_1.4.3.1.iml" filepath="$PROJECT_DIR$/wukongim_1.4.3.1/wukongim_1.4.3.1.iml" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.wmj.taoxin"
@@ -20,10 +20,10 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile(name: 'auth_push_2.3.2.1', ext: 'aar')
-    compile(name: 'doraemon-multimedia-1.9.9.6', ext: 'aar')
-    compile(name: 'wukongim_1.4.3.1', ext: 'aar')
+    compile project(':auth_push_2.3.2.1')
+    compile project(':doraemon-multimedia-1.9.9.6')
+    compile project(':wukongim_1.4.3.1')
 }

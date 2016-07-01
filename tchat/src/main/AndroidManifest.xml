@@ -15,7 +15,7 @@
     <service android:name="com.laiwang.protocol.android.LWPService" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"

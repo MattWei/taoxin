@@ -1,1 +1,1 @@
-include ':app', ':ceramicmaterial', ':organizationlibrary', ':taoxin'
+include ':app', ':ceramicmaterial', ':organizationlibrary', ':tchat', ':auth_push_2.3.2.1', ':doraemon-multimedia-1.9.9.6', ':wukongim_1.4.3.1'
